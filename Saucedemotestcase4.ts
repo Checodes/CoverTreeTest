@@ -32,3 +32,8 @@ await page.locator('[data-test="finish"]').click();
 
 //Verify user does not see "Thank you for your order" after checking out
 await page.getByRole('heading', { name: 'Thank you for your order!' }).click();});
+ 
+// Verify user can successfully logout
+await page.getByRole('button', { name: 'Open Menu' }).click();
+await page.getByRole('link', { name: 'Logout' }).click();
+});
