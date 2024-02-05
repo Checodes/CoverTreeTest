@@ -52,27 +52,20 @@ Objective: Confirm that users can proceed through the checkout process smoothly.
   5. Complete the checkout process.
 Expected Result: The user should receive confirmation of the order placement.
 
-Test Case 8: Verify Filtering Functionality
-Objective: Ensure that filtering products based on categories works correctly.
-  1. Log in to the Saucedemo website.
-  2. Navigate to the product page.
-  3. Apply a filter based on a specific category (e.g., "Sauce Labs Backpacks").
-Expected Result: Only products belonging to the selected category should be displayed.
-
-Test Case 9: Verify Logout Functionality
+Test Case 8: Verify Logout Functionality
 Objective: Confirm that users can successfully log out of their accounts.
   1. Log in to the Saucedemo website.
   2. Locate the logout option.
   3. Click on the logout button.
 Expected Result: The user should be logged out and directed to the login page.
 
-Test Case 10: Verify Error Handling
+Test Case 9: Verify Error Handling 
 Objective: Ensure appropriate error messages are displayed for invalid credentials.
   1. Attempt to log in with invalid credentials.
   2. Proceed to checkout without entering required details.
 Expected Result: Users should receive clear error messages indicating the issue and how to rectify it.
 
-Test Case 11: Verify Error Handling in Checkout
+Test Case 10: Verify Error Handling in Checkout (Failed- will discuss in review)
 Objective: Ensure appropriate error messages are displayed for .
   1. Log in with valid credentials.
   2. Proceed to checkout without adding anything to cart.
