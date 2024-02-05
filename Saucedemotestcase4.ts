@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
-  //Test Case 4: End-to-end invalid path test to verify login, sorting from Z to A, add 1 product to cart, and checkout with invalid postal code
+//Test Case 4: End-to-end invalid path test to verify login, sorting from Z to A, add 1 product to cart, and checkout with invalid postal code
 
 //Verify user can log into saucedemo.com
 await page.goto('https://www.saucedemo.com/');
